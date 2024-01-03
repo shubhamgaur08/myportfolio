@@ -14,9 +14,10 @@ const About = () => {
               />
             </div>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-              <h1>About me</h1>
-              <p>
-              Commited and goal-oriented computer science graduate looking to pursue a career in the MERN Stack Development domain. posses excellent knowledge in HTML, CSS, JavaScript, React-js, Node-js,
+              <h1>ABOUT ME</h1>
+              
+              <p>    
+              Commited and goal-oriented computer science graduate looking to pursue a career in the MERN Stack domain. posses excellent knowledge in HTML, CSS, JavaScript, React-js, Node-js,
 Express-js, Mongodb, BootStrap,
 Git And Github.
 Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.
