@@ -4,6 +4,7 @@
 }
 
 .sidebar {
+  z-index: 1;
   height: 100vh;
   background-color: #1e1e2c;
   width: 90px;

@@ -5,7 +5,9 @@ import Resume from "../../assets/docs/resume.txt";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
-
+import Button from '@mui/material/Button';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import ArticleIcon from '@mui/icons-material/Article';
 const Home = () => {
   const [theme, setTheme] = useTheme();
   //handle theme
@@ -29,9 +31,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "FullStack Developer!",
-                    "Mern Stack Developer!",
-                    "React Js developer!",
+                    "A FullStack Developer!",
+                    "A MERN Stack Developer!",
+                    "A React Js developer!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -41,7 +43,20 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons">
-              <a
+            <Button className="hire" id="hire" variant="contained" size="large" href="https://api.whatsapp.com/send?phone=9118708250"
+                rel="noreferrer"
+                target="_blank" >
+        HIRE ME
+        <VerifiedIcon id="verified"/>
+
+      </Button>
+      <Button  id="resume" variant="contained" size="large" href={Resume} download="shubham_mern.pdf">
+       MY RESUME
+        <ArticleIcon id="doc"/>
+
+      </Button>
+
+              {/* <a
                 className="btn btn-hire"
                 href="https://api.whatsapp.com/send?phone=9118708250"
                 rel="noreferrer"
@@ -51,7 +66,7 @@ const Home = () => {
               </a>
               <a className="btn btn-cv" href={Resume} download="shubham_mern.pdf">
                 My Resume
-              </a>
+              </a> */}
             </div>
           </Fade>
         </div>

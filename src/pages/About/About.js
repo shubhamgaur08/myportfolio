@@ -4,7 +4,7 @@ import Jump from "react-reveal/Jump";
 const About = () => {
   return (
     <>
-      <Jump>
+      <Jump className="container">
         <div className="about" id="about">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
