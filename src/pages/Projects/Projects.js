@@ -60,22 +60,20 @@ const Projects = () => {
 
                  <div className="buttons">
                   <a target="_blank"
-                    
+                     
                     rel="noreferrer"
                     href="https://bearnote.vercel.app/"
                   >
-                     <Button className="button" variant="contained">LIVE</Button>
+                     <Button className="button" id="button" variant="contained">LIVE</Button>
                   </a>
                   <a target="_blank"
-                    
+                     
                     rel="noreferrer"
                     href="https://github.com/shubhamgaur08/bearnote--code"
                   >
-                     <Button className="button" variant="contained">code</Button>
+                     <Button className="button" id="button" variant="contained">code</Button>
                   </a>
                  
-
-                   
                 </div>
               </div>
             </div>
@@ -94,16 +92,32 @@ const Projects = () => {
                   <span className="card-detail-badge">Node js</span>
                   <span className="card-detail-badge">openai-API</span>
                 </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">PICSBEAR- image generation.</h5>
+                <div className="card-bottom">
+                <div className="title">
+                    <h5 className="text-uppercase">
+                      BEARNOTE - Notes on cloud.
+                    </h5>
+                    
                   </div>
+                  
+                 </div>
+
+                 <div className="buttons">
                   <a target="_blank"
-                    className="ad-btn"
-                    href="https://pics-bear.vercel.app/"
+                     
+                    rel="noreferrer"
+                    href="https://bearnote.vercel.app/"
                   >
-                    View
+                     <Button className="button" id="button" variant="contained">LIVE</Button>
                   </a>
+                  <a target="_blank"
+                     
+                    rel="noreferrer"
+                    href="https://github.com/shubhamgaur08/bearnote--code"
+                  >
+                     <Button className="button" id="button" variant="contained">code</Button>
+                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -122,13 +136,32 @@ const Projects = () => {
 
                   <span className="card-detail-badge">Material UI</span>
                 </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">BEARPANEL - an admin panel</h5>
+                <div className="card-bottom">
+                <div className="title">
+                    <h5 className="text-uppercase">
+                      BEARNOTE - Notes on cloud.
+                    </h5>
+                    
                   </div>
-                  <a className="ad-btn" target="_blank" href="https://bear-panel.vercel.app/">
-                    View
+                  
+                 </div>
+
+                 <div className="buttons">
+                  <a target="_blank"
+                     
+                    rel="noreferrer"
+                    href="https://bearnote.vercel.app/"
+                  >
+                     <Button className="button" id="button" variant="contained">LIVE</Button>
                   </a>
+                  <a target="_blank"
+                     
+                    rel="noreferrer"
+                    href="https://github.com/shubhamgaur08/bearnote--code"
+                  >
+                     <Button className="button" id="button" variant="contained">code</Button>
+                  </a>
+                 
                 </div>
               </div>
             </div>
