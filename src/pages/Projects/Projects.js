@@ -3,7 +3,7 @@ import "./Projects.css";
 import Spin from "react-reveal/Spin";
 const Projects = () => {
   return (
-    <>
+    <div className="whole">
       <div className="continer project" id="projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           MY RECENT PROJECTS
@@ -35,19 +35,31 @@ const Projects = () => {
                   <span className="card-detail-badge">Mongodb</span>
                 </div>
                 <div className="card-body text-center">
-                  <div className="ad-title m-auto">
+                  {/* <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">
+                      BEARNOTE - Notes on cloud.
+                    </h5>
+                  </div> */}
+                  {/* <a target="_blank"
+                    className="ad-btn"
+                    rel="noreferrer"
+                    href="https://bearnote.vercel.app/"
+                  >
+                    View
+                  </a> */}
+                </div>
+                <div className="ad-title m-auto">
                     <h5 className="text-uppercase">
                       BEARNOTE - Notes on cloud.
                     </h5>
                   </div>
-                  <a target="_blank"
+                <a target="_blank"
                     className="ad-btn"
                     rel="noreferrer"
                     href="https://bearnote.vercel.app/"
                   >
                     View
                   </a>
-                </div>
               </div>
             </div>
             <div className="col-md-4">
@@ -106,7 +118,7 @@ const Projects = () => {
           </Spin>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
