@@ -42,6 +42,7 @@ const Projects = () => {
                   </div>
                   <a target="_blank"
                     className="ad-btn"
+                    rel="noreferrer"
                     href="https://bearnote.vercel.app/"
                   >
                     View
