@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import Button from '@mui/material/Button';
 const Projects = () => {
   return (
     <div className="whole">
@@ -34,7 +35,7 @@ const Projects = () => {
                   <span className="card-detail-badge">react</span>
                   <span className="card-detail-badge">Mongodb</span>
                 </div>
-                <div className="card-body text-center">
+               
                   {/* <div className="ad-title m-auto">
                     <h5 className="text-uppercase">
                       BEARNOTE - Notes on cloud.
@@ -47,19 +48,35 @@ const Projects = () => {
                   >
                     View
                   </a> */}
-                </div>
-                <div className="ad-title m-auto">
+                <div className="card-bottom">
+                <div className="title">
                     <h5 className="text-uppercase">
                       BEARNOTE - Notes on cloud.
                     </h5>
+                    
                   </div>
-                <a target="_blank"
-                    className="ad-btn"
+                  
+                 </div>
+
+                 <div className="buttons">
+                  <a target="_blank"
+                    
                     rel="noreferrer"
                     href="https://bearnote.vercel.app/"
                   >
-                    View
+                     <Button className="button" variant="contained">LIVE</Button>
                   </a>
+                  <a target="_blank"
+                    
+                    rel="noreferrer"
+                    href="https://github.com/shubhamgaur08/bearnote--code"
+                  >
+                     <Button className="button" variant="contained">code</Button>
+                  </a>
+                 
+
+                   
+                </div>
               </div>
             </div>
             <div className="col-md-4">
