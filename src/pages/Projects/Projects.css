@@ -4,7 +4,13 @@
   
 }
 
+.moads-top-banner, .ad-title, .ad-btn {
 
+ 
+   display: inline !important;
+   visibility: visible; /* Ensures the element is always visible */
+ 
+}
 
 .project hr {
   color: #138781;
