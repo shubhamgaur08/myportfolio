@@ -95,7 +95,7 @@ const Projects = () => {
                 <div className="card-bottom">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      BEARNOTE - Notes on cloud.
+                      PICSBEAR - Image Generator.
                     </h5>
                     
                   </div>
@@ -106,14 +106,14 @@ const Projects = () => {
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://bearnote.vercel.app/"
+                    href="https://pics-bear.vercel.app/"
                   >
                      <Button className="button" id="button" variant="contained">LIVE</Button>
                   </a>
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://github.com/shubhamgaur08/bearnote--code"
+                    href="https://github.com/shubhamgaur08/PicsBear"
                   >
                      <Button className="button" id="button" variant="contained">code</Button>
                   </a>
@@ -139,7 +139,7 @@ const Projects = () => {
                 <div className="card-bottom">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      BEARNOTE - Notes on cloud.
+                      BEARPANEL - Dashboard.
                     </h5>
                     
                   </div>
@@ -150,14 +150,14 @@ const Projects = () => {
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://bearnote.vercel.app/"
+                    href="https://bear-panel.vercel.app/"
                   >
                      <Button className="button" id="button" variant="contained">LIVE</Button>
                   </a>
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://github.com/shubhamgaur08/bearnote--code"
+                    href="https://github.com/shubhamgaur08/Bear-Panel"
                   >
                      <Button className="button" id="button" variant="contained">code</Button>
                   </a>
