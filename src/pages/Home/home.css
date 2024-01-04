@@ -1,5 +1,5 @@
 .home-container {
-  height: 300px;
+  height: 350px;
   color: white;
   padding-left: 150px;
  
@@ -15,6 +15,10 @@
 .home-content h1 {
   color: #e0b50f;
   padding: 5px;
+ 
+  position:absolute;
+
+  scroll-behavior: none;
   /* margin-left: 150px; */
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
@@ -22,8 +26,9 @@
 
 .home-buttons {
   /* margin-left: 150px; */
-  margin-top: 20px;
+  margin-top: 90px;
 }
+
 
 .home-buttons .btn-hire {
   background-color: #3b8ff3;

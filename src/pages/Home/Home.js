@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade";
 import Button from '@mui/material/Button';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import ArticleIcon from '@mui/icons-material/Article';
+
 const Home = () => {
   const [theme, setTheme] = useTheme();
   //handle theme
@@ -17,6 +18,7 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid home-container" id="home">
+        
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? (
             <BsFillMoonStarsFill size={30} />
@@ -25,7 +27,7 @@ const Home = () => {
           )}
         </div>
         <div className="container home-content">
-          <Fade right>
+          <Fade right className="heading">
             <h2>Hi 👋 I'm Shubham Gaur</h2>
             <h1>
               <Typewriter
@@ -55,20 +57,10 @@ const Home = () => {
         <ArticleIcon id="doc"/>
 
       </Button>
-
-              {/* <a
-                className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=9118708250"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Hire Me
-              </a>
-              <a className="btn btn-cv" href={Resume} download="shubham_mern.pdf">
-                My Resume
-              </a> */}
+      
             </div>
           </Fade>
+
         </div>
       </div>
     </>

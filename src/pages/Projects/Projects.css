@@ -1,13 +1,20 @@
 .project {
   margin: 50px 0px;
-  margin-left: 140px;
+  margin-left: 120px;
 }
-
+#projects{
+  width: 98%;
+}
 .project hr {
   color: #138781;
   width: 400px;
   margin: 10px auto;
 }
+/* .project .card {
+  width: 25vw;
+  margin: 10p;
+} */
+
 
 .project h2 {
   font-weight: bold;
@@ -99,6 +106,10 @@
   }
 }
 
-.card-body .text-center{
+/* .card-body .text-center{
   display: inline;
-}
+} */
+/* 
+.card-detail-badge{
+  height: 4px;
+} */
