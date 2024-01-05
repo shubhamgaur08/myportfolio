@@ -14,14 +14,14 @@ const About = () => {
               />
             </div>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-              <h1>ABOUT ME</h1>
+              <h1 className="neon-text">ABOUT ME</h1>
               
-              <p>    
+              <h5>    
               Commited and goal-oriented computer science graduate looking to pursue a career in the MERN Stack domain. posses excellent knowledge in HTML, CSS, JavaScript, React-js, Node-js,
 Express-js, Mongodb, BootStrap,
 Git And Github.
 Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.
-              </p>
+              </h5>
             </div>
           </div>
         </div>

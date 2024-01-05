@@ -136,10 +136,10 @@ const Projects = () => {
 
                   <span className="card-detail-badge">Material UI</span>
                 </div>
-                <div className="card-bottom">
+                <div className="card-bottom" id="panel">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      BEARPANEL - Dashboard.
+                      BEAR-PANEL - admin Panel .
                     </h5>
                     
                   </div>

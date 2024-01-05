@@ -1,5 +1,9 @@
 .about {
   overflow: hidden;
+  background-image: url("../../assets/images/p6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   /* font-family:"roboto"; */
   font-style:normal;
@@ -37,13 +41,32 @@
   border-bottom: 2px solid #138781;
   text-align: center;
 }
-.about-content p {
+.about-content h5 {
   text-align: justify;
   padding: 20px;
   font-family:"roboto"; 
  font-style:normal;
+ /* font-weight: bold; */
+ color:white;
 }
 
+.neon-text {
+  color: #fff; /* Set the text color */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #138781, 0 0 70px #138781, 0 0 80px #138781, 0 0 100px #138781, 0 0 150px #138781; /* Set multiple text shadows to create a neon glow effect */
+  animation: neon-animation 1.5s ease-in-out infinite; /* Apply animation to make the neon effect appear to flicker */
+}
+
+/* @keyframes neon-animation {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+} */
 /* ======== DARK MODE ========= */
 
 #dark .about {

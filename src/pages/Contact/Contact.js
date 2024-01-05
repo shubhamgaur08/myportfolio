@@ -39,11 +39,11 @@ const Contact = () => {
   return (
     <>
       <div className=" contact" id="contact">
-        <div className="card card0 border-0">
+        <div className="card card0 ">
           <div className="row">
-            <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 cards">
               <div className="card1">
-                <div className="row border-line">
+                <div className="row ">
                   <LightSpeed>
                     <img
                       src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
@@ -61,9 +61,12 @@ const Contact = () => {
                     <div className="row">
                       <h6>
                         Contact With
-                        <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
-                        <BsFacebook color="blue" size={30} className="ms-2" />
+                        <a href="https://www.linkedin.com/in/shubhamgaur07/" target="_blank" rel="noreferrer">
+                        <BsLinkedin color="#0a66c2" size={40} className="ms-3" /></a>
+                        <a href="https://github.com/shubhamgaur08" target="_blank" rel="noreferrer">
+                        <BsGithub color="black" size={40} className="ms-3" /></a>
+                        <a href="https://www.facebook.com/shubhamg007/" target="_blank" rel="noreferrer">
+                        <BsFacebook color="#1877F2" size={40} className="ms-3" /></a>
                       </h6>
                     </div>
 

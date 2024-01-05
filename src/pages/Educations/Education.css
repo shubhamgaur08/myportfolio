@@ -4,6 +4,11 @@
   margin: 50px 0px;
   margin-left: 120px;
   background-color: rgba(128, 128, 128, 0.101);
+  background-image: url("../../assets/images/p5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .education hr {

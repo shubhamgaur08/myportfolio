@@ -1,6 +1,15 @@
 .techstack {
-  padding-left: 130px;
+  /* padding-left: 130px; */
   margin-top: 60px;
+  margin-left: 120px;
+  width: fit-content;
+  border-radius: 20px;
+  background-image: url("../../assets/images/p4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  
 }
 .techstack hr {
   color: #138781;
