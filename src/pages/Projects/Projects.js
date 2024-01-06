@@ -139,7 +139,7 @@ const Projects = () => {
                 <div className="card-bottom" id="panel">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      BEAR-PANEL - admin Panel .
+                      BEAR-PANEL (pc) - admin Panel .
                     </h5>
                     
                   </div>
