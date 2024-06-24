@@ -6,7 +6,15 @@
   
 }
 .card0{
-  background-image: url("../../assets/images/p11.jpg");
+  background: hsla(63, 100%, 77%, 1);
+
+background: linear-gradient(90deg, hsla(63, 100%, 77%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(63, 100%, 77%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(63, 100%, 77%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAFF89", endColorstr="#EA72AD", GradientType=1 );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

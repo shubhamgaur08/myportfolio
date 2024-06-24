@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/shubham_mern.pdf";
+import Resume from "../../assets/docs/Shubham Gound Resume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
@@ -33,9 +33,8 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "A FullStack Developer!",
-                    "A MERN Stack Developer!",
-                    "A React Js developer!",
+                    "MERN Stack Developer!",
+                    "React Native Developer!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -52,7 +51,7 @@ const Home = () => {
         <VerifiedIcon id="verified"/>
 
       </Button>
-      <Button  id="resume" variant="contained" size="large" href={Resume} download="shubham_mern.pdf">
+      <Button  id="resume" variant="contained" size="large" href={Resume} download="Shubham Gound Resume.pdf">
        MY RESUME
         <ArticleIcon id="doc"/>
 

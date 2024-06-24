@@ -9,7 +9,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
-                src={require("../../assets/images/photo.jpg")}
+                src={require("../../assets/images/photo2.webp")}
                 alt="shubham gaur photo"
               />
             </div>
@@ -17,7 +17,7 @@ const About = () => {
               <h1 className="neon-text">ABOUT ME</h1>
               
               <h5>    
-              Commited and goal-oriented computer science graduate looking to pursue a career in the MERN Stack domain. posses excellent knowledge in HTML, CSS, JavaScript, React-js, Node-js,
+              Commited and goal-oriented computer science graduate looking to pursue a career in the MERN Stack & React Native domain. posses excellent knowledge in HTML, CSS, JavaScript, React-js,React Native, Node-js,
 Express-js, Mongodb, BootStrap,
 Git And Github.
 Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.

@@ -4,7 +4,15 @@
   margin-left: 120px;
   width: fit-content;
   border-radius: 20px;
-  background-image: url("../../assets/images/p4.jpg");
+  background: hsla(291, 79%, 51%, 1);
+
+background: linear-gradient(90deg, hsla(291, 79%, 51%, 1) 0%, hsla(240, 91%, 73%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(291, 79%, 51%, 1) 0%, hsla(240, 91%, 73%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(291, 79%, 51%, 1) 0%, hsla(240, 91%, 73%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1 );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

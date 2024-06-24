@@ -80,22 +80,22 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">WEB APP</span>
+                  <span className="card-notify-badge">ANDROID APP</span>
                   <img
-                    src={require("../../assets/images/PICSBEAR.png")}
+                    src={require("../../assets/images/Capgram.jpg")}
                     alt="project2"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Express js</span>
+                  <span className="card-detail-badge">React Native</span>
 
                   <span className="card-detail-badge">Node js</span>
-                  <span className="card-detail-badge">openai-API</span>
+                  <span className="card-detail-badge">Express Js</span>
                 </div>
                 <div className="card-bottom">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      PICSBEAR - Image Generator.
+                      CapGram AI - Caption Generator. 
                     </h5>
                     
                   </div>
@@ -106,16 +106,16 @@ const Projects = () => {
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://pics-bear.vercel.app/"
+                    href="https://drive.google.com/drive/folders/1jtKaWWU3_p86D98jsR_rj5HKVhzBF94w?usp=sharing"
                   >
-                     <Button className="button" id="button" variant="contained">LIVE</Button>
+                     <Button className="button" id="button" variant="contained">SCREENSHOTS</Button>
                   </a>
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://github.com/shubhamgaur08/PicsBear"
+                    href="https://drive.google.com/file/d/198Dt3FNx6cU-AfBCuLUxAorFA-iwjQgI/view?usp=sharing"
                   >
-                     <Button className="button" id="button" variant="contained">code</Button>
+                     <Button className="button" id="button" variant="contained">APK</Button>
                   </a>
                  
                 </div>
@@ -126,7 +126,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">WEB APP</span>
                   <img
-                    src={require("../../assets/images/BEARPANEL.png")}
+                    src={require("../../assets/images/BEARPANEL.jpg")}
                     alt="project1"
                   />
                 </div>

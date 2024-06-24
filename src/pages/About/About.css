@@ -1,9 +1,19 @@
 .about {
   overflow: hidden;
-  background-image: url("../../assets/images/p6.jpg");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background: hsla(94, 100%, 70%, 1);
+  background: hsla(148, 100%, 47%, 1);
+
+  background: linear-gradient(90deg, hsla(148, 100%, 47%, 1) 0%, hsla(211, 90%, 47%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(148, 100%, 47%, 1) 0%, hsla(211, 90%, 47%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(148, 100%, 47%, 1) 0%, hsla(211, 90%, 47%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00EE6E", endColorstr="#0C75E6", GradientType=1 );
 
   /* font-family:"roboto"; */
   font-style:normal;
@@ -13,7 +23,7 @@
   margin-left: 120px;
   /* box-shadow: rgba(219, 217, 91, 0.15) 1.95px 1.95px 2.6px; */
   border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.101);;
+  
 }
 
 

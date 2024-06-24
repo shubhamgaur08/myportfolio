@@ -3,8 +3,15 @@
   padding: 100px 0px;
   margin: 50px 0px;
   margin-left: 120px;
-  background-color: rgba(128, 128, 128, 0.101);
-  background-image: url("../../assets/images/p5.jpg");
+  background: hsla(279, 83%, 70%, 1);
+
+background: linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C471F2", endColorstr="#F76CC6", GradientType=1 );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,6 +1,6 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+
 import {
   SiJavascript,
   SiMui,
@@ -11,6 +11,7 @@ import {
   SiExpress,
  
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 export const TechstackList = [
   {
     _id: 1,
@@ -79,5 +80,10 @@ export const TechstackList = [
     name: "Git / Github ",
     icon: SiGithub,
   },
+  {
+    _id: 22,
+    name: "React Native",
+    icon: TbBrandReactNative,
+  }
   
 ];

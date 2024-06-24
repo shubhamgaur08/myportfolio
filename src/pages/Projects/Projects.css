@@ -1,7 +1,15 @@
 .project {
   margin: 50px 0px;
   margin-left: 120px;
-  background-image: url("../../assets/images/p10.jpg");
+  background: hsla(210, 91%, 39%, 1);
+
+  background: linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(210, 91%, 39%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0965C0", endColorstr="#C53A94", GradientType=1 );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
