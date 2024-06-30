@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/Shubham Gound Resume.pdf";
+import Resume from "../../assets/docs/Shubham Gound Resume new.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
 import Fade from "react-reveal/Fade";
@@ -51,7 +51,7 @@ const Home = () => {
         <VerifiedIcon id="verified"/>
 
       </Button>
-      <Button  id="resume" variant="contained" size="large" href={Resume} download="Shubham Gound Resume.pdf">
+      <Button  id="resume" variant="contained" size="large" href={Resume} download="Shubham Gound Resume new.pdf">
        MY RESUME
         <ArticleIcon id="doc"/>
 

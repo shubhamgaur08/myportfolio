@@ -95,7 +95,7 @@ const Projects = () => {
                 <div className="card-bottom">
                 <div className="title">
                     <h5 className="text-uppercase">
-                      CapGram AI - Caption Generator. 
+                      CapGram AI - Captions & Bio. 
                     </h5>
                     
                   </div>
@@ -113,9 +113,9 @@ const Projects = () => {
                   <a target="_blank"
                      
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/198Dt3FNx6cU-AfBCuLUxAorFA-iwjQgI/view?usp=sharing"
+                    href="https://play.google.com/store/apps/details?id=com.capgram"
                   >
-                     <Button className="button" id="button" variant="contained">APK</Button>
+                     <Button className="button" id="button" variant="contained">INSTALL</Button>
                   </a>
                  
                 </div>
